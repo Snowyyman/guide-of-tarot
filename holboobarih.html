@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          background-image: url("stars.jpg");
+        }
+        </style>
+        <!--Menu part-->
+        <style>
+          body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+          
+          }
+          
+          .topnav {
+            overflow: hidden;
+            background-color: #000000;
+          }
+          
+          .topnav a {
+            float: left;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+          }
+          
+          .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+          }
+          
+          .topnav a.active {
+            background-color: #393177;
+            color: white;
+          }
+          </style>
+          <style>
+            
+            .p1 {
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            </style>
+
+            <style>
+                body {
+                  font-family: Arial, Helvetica, sans-serif;
+                }
+                
+                * {
+                  box-sizing: border-box;
+                }
+                
+                /* Style inputs */
+                input[type=text], select, textarea {
+                  width: 100%;
+                  padding: 12px;
+                  border: 1px solid #963535;
+                  margin-top: 6px;
+                  margin-bottom: 16px;
+                  resize: vertical;
+                }
+                
+                input[type=submit] {
+                  background-color: #241386;
+                  color: white;
+                  padding: 12px 20px;
+                  border: none;
+                  cursor: pointer;
+                }
+                
+                input[type=submit]:hover {
+                  background-color: #45a049;
+                }
+                
+                /* Style the container/contact section */
+                .container {
+                  border-radius: 5px;
+                  background-image: url(stars.jpg);
+                  padding: 10px;
+                }
+                
+                /* Create two columns that float next to eachother */
+                .column {
+                  float: left;
+                  width: 50%;
+                  margin-top: 6px;
+                  padding: 20px;
+                }
+                
+                /* Clear floats after the columns */
+                .row:after {
+                  content: "";
+                  display: table;
+                  clear: both;
+                }
+                
+                
+                </style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="BieDaalt.html">Буцах</a>
+      </div>
+<h1 style="color:aliceblue">Тарот хөзрийн мэдээлэл</h1>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2 style="color:aliceblue">Холбоо барих</h2>
+    <p style="color:aliceblue; font-size: 30px">Санал хүсэлтээ бидэн лүү илгээнэ үү. :</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="Wheel of fortune.webp" style="width:50%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname"></label>
+        <input type="text" id="fname" name="Овог" placeholder="Овог..">
+        <label for="lname">өөрийн нэр</label>
+        <input type="text" id="lname" name="өөрийн нэр" placeholder="өөрийн нэр..">
+        <label for="country">Улс орон</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">Монгол</option>
+        </select>
+        <label for="subject">Санал Хүсэлт</label>
+        <textarea id="subject" name="subject" placeholder="Хүсэлтээ бичнэ үү.." style="height:170px"></textarea>
+        <a style="color:aliceblue; font-size: 30px" href="submit.html" type="submit" value="Submit">submit</a>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
